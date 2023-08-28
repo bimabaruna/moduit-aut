@@ -1,0 +1,149 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-27T15:29:50.272Z",
+        "line": 5,
+        "name": "User want to Register",
+        "description": "",
+        "id": "profile-register;user-want-to-register",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2428094700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user go to register page",
+            "match": {
+              "location": "HomePageStep.userGoToRegisterPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219399900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user input nama lengkap \"Bima baruna\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bima baruna\"",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterPageStep.userInputNamaLengkap(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81981700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user input valid email",
+            "match": {
+              "location": "RegisterPageStep.userInputValidEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92421299,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input password \"Testing123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing123!\"",
+                  "offset": 20
+                }
+              ],
+              "location": "RegisterPageStep.userInputPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93975799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input confirm password \"Testing123!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Testing123!\"",
+                  "offset": 28
+                }
+              ],
+              "location": "RegisterPageStep.userInputConfirmPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108053601,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user input phone number \"8569449123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8569449123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "RegisterPageStep.userInputPhoneNumber(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84728101,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click daftar",
+            "match": {
+              "location": "RegisterPageStep.userClickDaftar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testing"
+          },
+          {
+            "name": "@register"
+          }
+        ]
+      }
+    ],
+    "name": "Profile Register",
+    "description": "",
+    "id": "profile-register",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/RegisterScenario.feature",
+    "tags": [
+      {
+        "name": "@Testing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
